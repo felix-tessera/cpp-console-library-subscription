@@ -123,7 +123,7 @@ void printTransactions(const vector<Transaction>& transactions) {
 int main() {
     setlocale(LC_ALL, "RU");
     // Чтение данных из файла
-    vector<Transaction> transactions = readTransactions("transactions.txt");
+    vector<Transaction> transactions = readTransactions("data.txt");
 
     // 1. Вывести все приходные операции
     cout << "Приходные операции:" << endl;
