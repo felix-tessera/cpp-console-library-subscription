@@ -8,6 +8,10 @@
 
 using namespace std;
 
+#include "book_subscription.h"
+#include "file_reader.h"
+#include "constants.h"
+
 struct Transaction {
     string date;
     string time;
