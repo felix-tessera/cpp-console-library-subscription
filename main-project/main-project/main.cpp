@@ -122,6 +122,10 @@ void printTransactions(const vector<Transaction>& transactions) {
 
 int main() {
     setlocale(LC_ALL, "RU");
+    cout << "Laboratory work #1. GIT\n";
+    cout << "Variant #7. Library Subscription\n";
+    cout << "Author: Никита Сергеевич Ермолюгин\n";
+    cout << "Group: 1\n";
     // Чтение данных из файла
     vector<Transaction> transactions = readTransactions("transactions.txt");
 
