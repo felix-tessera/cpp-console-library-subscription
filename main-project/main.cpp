@@ -137,6 +137,7 @@ void quickSort(vector<Operation>& ops, int left, int right) {
 
 int main() {
     setlocale(LC_ALL, "ru_RU.UTF-8");
+    cout << "*** ���������� �������� ***";
     cout << "Автор: Ермолюгин Никита Сергеевич. Вариант: 7; Банковские операции \n";
     cout << "Введите имя файла: ";
     string filename;
