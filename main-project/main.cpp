@@ -4,6 +4,9 @@
 #include <vector>
 using namespace std;
 
+#include "operation_subscription.h"
+#include "file_reader.h"
+#include "constants.h"
 
 // данные об операции
 struct Operation {
