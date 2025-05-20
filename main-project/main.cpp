@@ -136,6 +136,7 @@ int main() {
     setlocale(LC_ALL, "ru_RU.UTF-8");
     cout << "Автор: Ермолюгин Никита Сергеевич. Вариант: 7; Банковские операции \n";
     cout << "Введите имя файла: ";
+    cout << "Group: 24Pi1z\n";
     string filename;
     cin >> filename;
 
